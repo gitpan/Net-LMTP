@@ -16,7 +16,7 @@ use Carp;
 use IO::Socket;
 use Net::Cmd;
 
-$VERSION = "0.01"; # $Id$
+$VERSION = "0.02"; # $Id$
 
 @ISA = qw(Net::Cmd IO::Socket::INET);
 
@@ -594,6 +594,12 @@ L<Net::Cmd>, L<Net::SMTP>
 =head1 AUTHOR
 
 Les Howard <lhoward@spamcop.net>
+
+=head2 THANKS
+
+Special thanks to Joe Minieri and ommTel (www.ctel.net) for providing the 
+impetus (and funding) to get this module created.
+
 
 =head1 COPYRIGHT
 
